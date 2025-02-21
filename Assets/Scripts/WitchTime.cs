@@ -21,10 +21,10 @@ public class WitchTime : MonoBehaviour
     //    isSlowed = true;
     //    Time.timeScale = howSlow;
     //    Time.fixedDeltaTime = 0.02f * Time.timeScale;
+    //    AudioManager.instance.PlayAudio(WitchTime, "WitchTime", true);
     //    yield return new WaitForSeconds(howSlow);
     //    Time.timeScale = 1;
     //    Time.fixedDeltaTime = 0.02f;
     //    isSlowed=false;
-    //    AudioManager.instance.PlayAudio(WitchTime, "WitchTime", true);
     //}
 }
